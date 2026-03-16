@@ -1,0 +1,15 @@
+C:\Users\Classtime\Desktop\APA103\KURS\bin\Debug\net8.0\KURS.exe
+C:\Users\Classtime\Desktop\APA103\KURS\bin\Debug\net8.0\KURS.deps.json
+C:\Users\Classtime\Desktop\APA103\KURS\bin\Debug\net8.0\KURS.runtimeconfig.json
+C:\Users\Classtime\Desktop\APA103\KURS\bin\Debug\net8.0\KURS.dll
+C:\Users\Classtime\Desktop\APA103\KURS\bin\Debug\net8.0\KURS.pdb
+C:\Users\Classtime\Desktop\APA103\KURS\obj\Debug\net8.0\KURS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Classtime\Desktop\APA103\KURS\obj\Debug\net8.0\KURS.AssemblyInfoInputs.cache
+C:\Users\Classtime\Desktop\APA103\KURS\obj\Debug\net8.0\KURS.AssemblyInfo.cs
+C:\Users\Classtime\Desktop\APA103\KURS\obj\Debug\net8.0\KURS.csproj.CoreCompileInputs.cache
+C:\Users\Classtime\Desktop\APA103\KURS\obj\Debug\net8.0\KURS.sourcelink.json
+C:\Users\Classtime\Desktop\APA103\KURS\obj\Debug\net8.0\KURS.dll
+C:\Users\Classtime\Desktop\APA103\KURS\obj\Debug\net8.0\refint\KURS.dll
+C:\Users\Classtime\Desktop\APA103\KURS\obj\Debug\net8.0\KURS.pdb
+C:\Users\Classtime\Desktop\APA103\KURS\obj\Debug\net8.0\KURS.genruntimeconfig.cache
+C:\Users\Classtime\Desktop\APA103\KURS\obj\Debug\net8.0\ref\KURS.dll
