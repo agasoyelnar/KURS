@@ -1,10 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Classtime\\Desktop\\APA103\\KURS\\",
+  "WorkspaceRootPath": "C:\\Users\\Classtime.PC_6_213_17\\Desktop\\KURS\\KURS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A7A27FA7-B53F-48ED-B404-FF44105FA533}|KURS.csproj|c:\\users\\classtime\\desktop\\apa103\\kurs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A7A27FA7-B53F-48ED-B404-FF44105FA533}|KURS.csproj|c:\\users\\classtime.pc_6_213_17\\desktop\\kurs\\kurs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A7A27FA7-B53F-48ED-B404-FF44105FA533}|KURS.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7A27FA7-B53F-48ED-B404-FF44105FA533}|KURS.csproj|c:\\users\\classtime.pc_6_213_17\\desktop\\kurs\\kurs\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7A27FA7-B53F-48ED-B404-FF44105FA533}|KURS.csproj|solutionrelative:models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7A27FA7-B53F-48ED-B404-FF44105FA533}|KURS.csproj|c:\\users\\classtime.pc_6_213_17\\desktop\\kurs\\kurs\\kurs.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A7A27FA7-B53F-48ED-B404-FF44105FA533}|KURS.csproj|solutionrelative:kurs.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7A27FA7-B53F-48ED-B404-FF44105FA533}|KURS.csproj|c:\\users\\classtime.pc_6_213_17\\desktop\\kurs\\kurs\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A7A27FA7-B53F-48ED-B404-FF44105FA533}|KURS.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "KURS",
+              "DocumentMoniker": "C:\\Users\\Classtime.PC_6_213_17\\Desktop\\KURS\\KURS\\KURS.csproj",
+              "RelativeDocumentMoniker": "KURS.csproj",
+              "ToolTip": "C:\\Users\\Classtime.PC_6_213_17\\Desktop\\KURS\\KURS\\KURS.csproj",
+              "RelativeToolTip": "KURS.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-16T09:14:00.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\Classtime.PC_6_213_17\\Desktop\\KURS\\KURS\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\Classtime.PC_6_213_17\\Desktop\\KURS\\KURS\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF8SURBVDhPjVNLTgJBEG1lwpoFB3GNK9fieA48hD8iwT/ihwgSDAIHgAGXXsEV18CNzL/LquqZdsYM6kteXqcy3fWqpmpNRBgOhyABBEgpAFVKPIMUcYzUyOU\u002BXM/b2qtU3vkSfRjjZTCAMAw1A2LwzdFoBPP5HNqdzuL27n4juibWI\u002BUshBA1DIkhEx9iEorFotgslQqGYbxxAGFEqt1MxmPWJLbLZdZ\u002Bv89q5PMFPiTR6z2zdaxR0fXA0XTBcVywkb4fwHXjRteecIDNQ7UmExVYAdPcxYaqclN46na5WenMKjtlVnTYwcXlVYaDqImW9beD5N/TeGy32QHXm6hZ03ZgiSQHp2fnWQ4oBmJqWSqwAqZpZjt4aLXAD4J0VqyZsmoubfB8H2r1eoaD6NXZ9HcHO\u002BSA3f4AjifXl8rItOETM8ckB9WTWpYD9RdeZ1PWVWAHWXPQaDb59f/w8LiqHeh1pvGkCaP6qB8yXusoxmuNZ7XmII4O9vGuEF86osuDYRkpYQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2026-03-16T08:59:47.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Teacher.cs",
+              "DocumentMoniker": "C:\\Users\\Classtime.PC_6_213_17\\Desktop\\KURS\\KURS\\Models\\Teacher.cs",
+              "RelativeDocumentMoniker": "Models\\Teacher.cs",
+              "ToolTip": "C:\\Users\\Classtime.PC_6_213_17\\Desktop\\KURS\\KURS\\Models\\Teacher.cs*",
+              "RelativeToolTip": "Models\\Teacher.cs*",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA0wCMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T08:58:33.052Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Classtime\\Desktop\\APA103\\KURS\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Classtime.PC_6_213_17\\Desktop\\KURS\\KURS\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Classtime\\Desktop\\APA103\\KURS\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Classtime.PC_6_213_17\\Desktop\\KURS\\KURS\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-16T08:24:18.696Z",
               "EditorCaption": ""
