@@ -1,11 +1,11 @@
-﻿using System;
 using MyApp.Models;
+using KURS.Models;
 
 class Program
 {
     static void Main(string[] args)
     {
-        
+
         Teacher t1 = new Teacher(
             "user1",
             "Nikola",
@@ -19,7 +19,7 @@ class Program
             "12345"
         );
 
-        
+
         Teacher t2 = new Teacher(
             "",
             "Aliyeva",
@@ -29,7 +29,7 @@ class Program
             "0552222222"
         );
 
-        
+
         Teacher t3 = new Teacher(
             "Rashad",
             "Huseynov",
@@ -40,7 +40,7 @@ class Program
             "Math"
         );
 
-        
+
         Console.WriteLine("---- T1 ----");
         Console.WriteLine(t1.GetName());
         Console.WriteLine(t1.GetSubject());
@@ -54,5 +54,28 @@ class Program
         Console.WriteLine(t3.GetTeacher());
         Console.WriteLine(t3.GetBirthdate());
         Console.WriteLine(t3.GetSubject());
+
+
+
+        Student telebe = new Student(
+            "huseynov55",
+            "Hüseyn",
+            "Hüseynov",
+            101,
+            2000,
+            "Bakı ş.",
+            "+994550000000",
+            "huseyn@mail.com",
+            "pass123",
+            95
+        );
+
+        Console.WriteLine(telebe.GetName());
+        Console.WriteLine(telebe.GetGroup());
+        Console.WriteLine(telebe.GetStudent());
+        Console.WriteLine(telebe.GetEmail());
+        Console.WriteLine(telebe.GetBirthDay());
+        Console.WriteLine(telebe.GetContact());
     }
 }
+

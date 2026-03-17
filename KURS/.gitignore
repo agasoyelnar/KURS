@@ -1,1 +1,71 @@
-dotnet new gitignore
+﻿## Build nəticələri
+bin/
+obj/
+
+## Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Rider / JetBrains
+.idea/
+
+## VS Code
+.vscode/
+
+## NuGet
+*.nupkg
+packages/
+.nuget/
+
+## Logs
+*.log
+
+## OS faylları
+.DS_Store
+Thumbs.db
+
+## Test nəticələri
+TestResults/
+
+## Publish
+publish/
+
+## Resharper
+_ReSharper*/
+*.DotSettings.user
+
+## DotCover
+*.dotCover
+
+## Azure
+*.PublishSettings
+
+## Rider local config
+*.sln.iml
+
+## EF Core migrations snapshot (əgər istəmirsənsə)
+*.Designer.cs
+
+## Secrets (appsettings)
+appsettings.Development.json
+secrets.json
+
+## IIS Express
+iisexpress/
+
+## Coverage
+coverage/
+*.coverage
+*.coveragexml
+
+## Node (əgər frontend varsa)
+node_modules/
+
+## Docker
+docker-compose.override.yml
+
+## Generated files
+Generated/
