@@ -1,37 +1,58 @@
 ﻿using System;
+using MyApp.Models;
 
-namespace KURS
+class Program
 {
-    class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Teacher teacher1 = new Teacher(
-                1,
-                "Jale",
-                "Mammadova",
-                "C#",
-                "mid level programmer",
-                "BP101",
-                new DateTime(1990, 5, 10),
-                "Baku",
-                "0501234567",
-                "ali@gmail.com",
-                "12345"
-            );
+        
+        Teacher t1 = new Teacher(
+            "user1",
+            "Nikola",
+            "Tesla",
+            "IT",
+            "Programming",
+            new DateTime(1990, 5, 10),
+            "Baku",
+            "0501111111",
+            "tesla@mail.com",
+            "12345"
+        );
 
-            Console.WriteLine("Teacher Name: " + teacher1.Name);
-            Console.WriteLine("Surname: " + teacher1.Surname);
-            Console.WriteLine("Subject: " + teacher1.Subject);
-            Console.WriteLine("Username: " + teacher1.Username);
-            Console.WriteLine("Group Number: " + teacher1.GroupNumber);
-            Console.WriteLine("Birth Date: " + teacher1.BirthDate.ToShortDateString());
-            Console.WriteLine("Address: " + teacher1.Address);
-            Console.WriteLine("Phone: " + teacher1.PhoneNumber);
-            Console.WriteLine("Email: " + teacher1.Email);
+        
+        Teacher t2 = new Teacher(
+            "",
+            "Aliyeva",
+            "leyla@mail.com",
+            "pass",
+            "leyla123",
+            "0552222222"
+        );
 
-            Console.WriteLine("\nPress any key to exit...");
-            Console.ReadKey();
-        }
+        
+        Teacher t3 = new Teacher(
+            "Rashad",
+            "Huseynov",
+            "rashad@mail.com",
+            "pass123",
+            "rashad01",
+            new DateTime(1985, 3, 20),
+            "Math"
+        );
+
+        
+        Console.WriteLine("---- T1 ----");
+        Console.WriteLine(t1.GetName());
+        Console.WriteLine(t1.GetSubject());
+        Console.WriteLine(t1.GetContact());
+
+        Console.WriteLine("---- T2 ----");
+        Console.WriteLine(t2.GetTeacher());
+        Console.WriteLine(t2.GetContact());
+
+        Console.WriteLine("---- T3 ----");
+        Console.WriteLine(t3.GetTeacher());
+        Console.WriteLine(t3.GetBirthdate());
+        Console.WriteLine(t3.GetSubject());
     }
 }

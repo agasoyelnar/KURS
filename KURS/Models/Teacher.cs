@@ -1,67 +1,92 @@
 ﻿using System;
 
-namespace KURS
+namespace MyApp.Models
 {
-
-
-    class Teacher
+    public class Teacher
     {
+        public string username;
+        public string firstname;
+        public string lastname;
+        public string departmentName;
+        public string subject;
+        public DateTime birthdate;
+        public string address;
+        public string phoneNumber;
+        public string email;
+        public string password;
 
         
-        private int id;
-        private string name;
-        private string surname;
-        private string subject;
-        private string experience;
-        private string groupNumber;
-        private DateTime birthDate;
-        private string address;
-        private string phoneNumber;
-        private string email;
-        private string username;
-
-
-
-
-
-
-
-        
-        public string Name { get { return name; } private set { name = value; } }
-        public string Surname { get { return surname; } private set { surname = value; } }
-        public string Subject { get { return subject; } private set { subject = value; } }
-        public string Username { get { return username; } private set { username = value; } }
-        public string GroupNumber { get { return groupNumber; } private set { groupNumber = value; } }
-        public DateTime BirthDate { get { return birthDate; } private set { birthDate = value; } }
-        public string Address { get { return address; } private set { address = value; } }
-        public string PhoneNumber { get { return phoneNumber; } private set { phoneNumber = value; } }
-        public string Email { get { return email; } private set { email = value; } }
-
-        
-        public Teacher(int id, string name, string surname, string subject, string experience,
-            string groupNumber, DateTime birthDate, string address, string phoneNumber, string email, string username)
+        public Teacher(string username, string firstname, string lastname,
+                       string departmentName, string subject, DateTime birthdate,
+                       string address, string phoneNumber, string email, string password)
         {
-
-
-            this.id = id;
-            this.Name = name;
-            this.Surname = surname;
-            this.Subject = subject;
             this.username = username;
-            this.GroupNumber = groupNumber;
-            this.BirthDate = birthDate;
-            this.Address = address;
-            this.PhoneNumber = phoneNumber;
-            this.Email = email;
+            this.firstname = firstname;
+            this.lastname = lastname;
+            this.departmentName = departmentName;
+            this.subject = subject;
+            this.birthdate = birthdate;
+            this.address = address;
+            this.phoneNumber = phoneNumber;
+            this.email = email;
+            this.password = password;
+        }
 
+        
+        public Teacher(string firstname, string lastname, string email,
+                       string password, string username, string phoneNumber)
+        {
+            this.firstname = firstname;
+            this.lastname = lastname;
+            this.email = email;
+            this.password = password;
+            this.username = username;
+            this.phoneNumber = phoneNumber;
+        }
 
+        
+        public Teacher(string firstname, string lastname, string email,
+                       string password, string username, DateTime birthdate, string subject)
+        {
+            this.firstname = firstname;
+            this.lastname = lastname;
+            this.email = email;
+            this.password = password;
+            this.username = username;
+            this.birthdate = birthdate;
+            this.subject = subject;
+        }
 
+        
 
+        public string GetName()
+        {
+            return firstname + " " + lastname;
+        }
 
+        public string GetSubject()
+        {
+            return subject;
+        }
 
+        public string GetTeacher()
+        {
+            return $"Name: {firstname} {lastname}, Email: {email}, Username: {username}";
+        }
+
+        public string GetEmail()
+        {
+            return email;
+        }
+
+        public DateTime GetBirthdate()
+        {
+            return birthdate;
+        }
+
+        public string GetContact()
+        {
+            return $"Phone: {phoneNumber}, Email: {email}";
         }
     }
 }
-
-
-
